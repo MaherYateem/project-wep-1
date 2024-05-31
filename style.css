@@ -1,0 +1,71 @@
+
+
+     body{
+        background-image: url(n.jpg);
+        height: 100vh;
+        background-size: cover; 
+    }
+    
+.log{
+
+    background-color: rgba(244, 181, 151,0.5); 
+    border-radius: 1px;
+    height: 650px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    margin:auto ;
+    margin-top: 200px;
+    border: solid 2px rgba(244, 181, 151,0.5);
+    box-shadow: 3px 3px 3px rgb(161, 145, 145),-3px -3px 6px gold;
+
+}
+.text_box{
+    padding: 10px;
+    border-radius: 1px;
+    width: 80%;
+    height: 20px;
+    outline: none;
+display: flex;
+border: solid 2px rgb(220, 150, 100);
+margin: auto;
+box-shadow: 3px 3px 3px,-3px -3px 6px gold;
+margin-top: 40px;
+} 
+
+
+.input_bot{
+   
+ width: 5cm;
+height: 1cm; 
+border-radius: 1px;
+font-family: inherit;
+border: none;
+position:relative ;
+z-index: 1;
+ box-shadow: 3px 3px 3px gold,-3px -3px 6px gold; 
+left: 70px;
+margin-top: 50px;
+} 
+.input_bot:hover {
+    display: block;
+    filter: drop-shadow(0 0 10px gold);
+    background-color: blanchedalmond;
+    transition: 2s;
+
+}
+
+
+.link{
+    margin: auto;
+    font-size: 20px;
+}
+.h1{
+ 
+    color: rgb(255, 255, 255);
+text-shadow: 6px 6px 6px black, -6px -6px 12px gold ;
+
+
+}
+

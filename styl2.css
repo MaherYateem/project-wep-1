@@ -1,0 +1,81 @@
+body{
+    background-image: url(n.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    height: 400px;
+    width: 350px;
+    background-color: rgba(244, 181, 151,0.5);
+    border-radius: 1px;
+    margin: auto;
+    margin-top: 15%;
+    position: relative;
+    border: solid 2px rgba(244, 181, 151,0.5);
+    box-shadow: 3px 3px 3px rgb(161, 145, 145),-3px -3px 6px gold;
+
+}
+.text{
+
+    color: rgb(255, 255, 255);
+
+   text-align: center; 
+
+   text-shadow: 6px 6px 6px black, -6px -6px 12px gold ;
+
+}
+.input{
+    padding: 10px;
+    border-radius: 1px;
+    width: 75%;
+    margin: auto;
+    outline: none;
+display: flex;
+margin-top: 40px;
+border: solid 2px rgb(220, 150, 100);
+box-shadow: 3px 3px 3px,-3px -3px 6px gold;
+
+
+}
+
+.but{
+    display: block;  
+  margin: auto;
+    padding: 9px;   
+   margin-top: 50px; 
+ width: 150px;
+height: 36px;
+border-radius: 3px;
+font-size: 15px;
+font-family: inherit;
+border: none;
+position:relative ; 
+overflow: hidden;
+z-index: 1;
+box-shadow: 3px 3px 3px gold,-3px -3px 6px gold;
+padding: auto;
+
+}
+.but:hover{
+    display: block;
+    filter: drop-shadow(0 0 10px gold);
+    background-color: blanchedalmond;
+    transition: 2s;
+}
+.checkb{
+    margin: auto;
+    
+}
+.link{
+    display: block;
+    margin: auto;
+    margin-left: 40%;
+    
+
+}
+.lable{
+    margin: auto;
+    margin-left: 40%;
+}
