@@ -1,7 +1,7 @@
 
 
      body{
-        background-image: url(n.jpg);
+        background-image: url(../image/n.jpg);
         height: 100vh;
         background-size: cover; 
     }
@@ -9,9 +9,9 @@
 .log{
 
     background-color: rgba(244, 181, 151,0.5); 
-    border-radius: 1px;
+    border-radius: 30px;
     height: 650px;
-    width: 500px;
+    width: 470px;
     display: flex;
     align-items: center;
     flex-direction: column; 
@@ -23,8 +23,8 @@
 }
 .text_box{
     padding: 10px;
-    border-radius: 1px;
-    width: 80%;
+    border-radius: 30px;
+    width: 90%;
     height: 20px;
     outline: none;
 display: flex;
@@ -39,13 +39,13 @@ margin-top: 40px;
    
  width: 5cm;
 height: 1cm; 
-border-radius: 1px;
+border-radius: 30px;
 font-family: inherit;
 border: none;
 position:relative ;
 z-index: 1;
- box-shadow: 3px 3px 3px gold,-3px -3px 6px gold; 
-left: 70px;
+box-shadow: 3px 3px 3px rgba(238, 255, 0, 0.492) ,-3px -3px 6px rgba(238, 255, 0, 0.492);
+ margin-left: 22%; 
 margin-top: 50px;
 } 
 .input_bot:hover {
@@ -60,12 +60,119 @@ margin-top: 50px;
 .link{
     margin: auto;
     font-size: 20px;
+
 }
 .h1{
  
     color: rgb(255, 255, 255);
 text-shadow: 6px 6px 6px black, -6px -6px 12px gold ;
 
+}
+ @media(max-width :770px  ){
+    .log{
+        height: 470px;
+        width: 300px;
+    }
+    .text_box{
+        padding: 10px;
+        border-radius: 30px;
+        width: 99%;
+        height: 10px;
+        outline: none;
+    display: flex;
+    border: solid 2px rgb(220, 150, 100);
+    margin: auto;
+    box-shadow: 3px 3px 3px,-3px -3px 6px gold;
+    margin-top: 30px;
+    } 
+    
+    
+    .input_bot{
+       
+     width: 100px;
+    height: 30px; 
+    border-radius: 30px;
+    font-family: inherit;
+    border: none;
+    position:relative ;
+    z-index: 1;
+    box-shadow: 3px 3px 3px rgba(238, 255, 0, 0.492) ,-3px -3px 6px rgba(238, 255, 0, 0.492);
+     margin-left: 24%; 
+    margin-top: 30px;
+    } 
+    .input_bot:hover {
+        display: block;
+        filter: drop-shadow(0 0 10px gold);
+        background-color: blanchedalmond;
+        transition: 2s;
+    
+    }
+    
+    
+    .link{
+        margin: auto;
+        font-size: 15px;
+    
+    }
+    .h1{
+     font-size: medium;
+        color: rgb(255, 255, 255);
+    text-shadow: 6px 6px 6px black, -6px -6px 12px gold ;
+    text-align: center;
+    }
 
 }
+ @media(max-width :570px  ){
+    .log{
+        height: 400px;
+        width: 250px;
+    }
+    .text_box{
+        padding: 10px;
+        border-radius: 30px;
+        width: 90%;
+        height: 10px;
+        outline: none;
+    display: flex;
+    border: solid 2px rgb(220, 150, 100);
+    margin: auto;
+    box-shadow: 3px 3px 3px,-3px -3px 6px gold;
+    margin-top: 20px;
+    } 
+    
+    
+    .input_bot{
+       
+     width: 100px;
+    height: 25px; 
+    border-radius: 30px;
+    font-family: inherit;
+    border: none;
+    position:relative ;
+    z-index: 1;
+    box-shadow: 3px 3px 3px rgba(238, 255, 0, 0.492) ,-3px -3px 6px rgba(238, 255, 0, 0.492);
+     margin-left: 22%; 
+    margin-top: 30px;
+    } 
+    .input_bot:hover {
+        display: block;
+        filter: drop-shadow(0 0 10px gold);
+        background-color: blanchedalmond;
+        transition: 2s;
+    
+    }
+    
+    
+    .link{
+        margin: auto;
+        font-size: 10px;
+    
+    }
+    .h1{
+     
+        color: rgb(255, 255, 255);
+    text-shadow: 6px 6px 6px black, -6px -6px 12px gold ;
+    
+    }
 
+}
